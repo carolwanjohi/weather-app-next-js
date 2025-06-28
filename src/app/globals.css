@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+:root,
+.theme-floral {
+  --lavender: #b57edc;
+  --sakura: #ffb7c5;
+  --jacaranda: #a99cf7;
+  --clear-sky: var(--jacaranda);
+  --cloudy: #c3aed6;
+  --rainy: #b57edc;
+  --stormy: #e75480;
+  --snowy: #fff0f6;
+  --sunrise: #ffb7c5;
+  --sunset: #e75480;
+  --night: #6d5b7b;
+  --dark-bg: #3e2c41;
+  --bright-blue: #a99cf7;
+  --bg-gradient-start: #f8e1f4;
+  --bg-gradient-mid: #e0c3fc;
+  --bg-gradient-end: #b7b5e3;
+  --bg-solid: #f3e8ff;
+}
+
+.theme-classic {
+  --lavender: #7fa1e8;
+  --sakura: #f7cac9;
+  --jacaranda: #4a90e2;
+  --clear-sky: #4a90e2;
+  --cloudy: #b0b8c1;
+  --rainy: #7fa1e8;
+  --stormy: #5c6bc0;
+  --snowy: #e3eaf2;
+  --sunrise: #f7cac9;
+  --sunset: #f5a623;
+  --night: #34495e;
+  --dark-bg: #222f3e;
+  --bright-blue: #4a90e2;
+  --bg-gradient-start: #e3eaf2;
+  --bg-gradient-mid: #b0b8c1;
+  --bg-gradient-end: #7fa1e8;
+  --bg-solid: #e3eaf2;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 60%, var(--bg-gradient-end) 100%);
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  min-height: 100vh;
+  transition: background 0.6s;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(181, 126, 220, 0.10), 0 1.5px 6px 0 rgba(169, 156, 247, 0.08);
+  border-radius: 2rem;
+  border: 1.5px solid rgba(181, 126, 220, 0.13);
+  backdrop-filter: blur(22px) saturate(1.2);
+  -webkit-backdrop-filter: blur(22px) saturate(1.2);
+  transition: background 0.6s, box-shadow 0.6s, border 0.6s;
+}
+
+input, button {
+  border-radius: 1rem;
+}
+
+.bg-white\/80 {
+  background-color: rgba(255,255,255,0.88) !important;
+  transition: background 0.6s;
+}
+
+.bg-white {
+  background-color: #f8e1f4 !important;
+  transition: background 0.6s;
+}
+
+.text-blue-900 {
+  color: var(--jacaranda) !important;
+}
+
+.text-blue-700 {
+  color: var(--lavender) !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-dark {
+  color: #222 !important;
+}
+
+.bg-floral {
+  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 60%, var(--bg-gradient-end) 100%) !important;
+}
+
+.bg-floral-solid {
+  background-color: var(--bg-solid) !important;
+}
+
+.text-floral-jacaranda {
+  color: var(--jacaranda) !important;
+}
+
+.text-floral-sakura {
+  color: var(--sakura) !important;
+}
+
+.text-floral-lavender {
+  color: var(--lavender) !important;
+}
+
+.bg-floral-hover {
+  background: linear-gradient(135deg, var(--bg-gradient-mid) 0%, var(--bg-gradient-end) 100%) !important;
+  box-shadow: 0 2px 12px 0 rgba(181, 126, 220, 0.18), 0 1.5px 6px 0 rgba(169, 156, 247, 0.12);
+  filter: brightness(1.08) saturate(1.15);
+  backdrop-filter: blur(8px) saturate(1.2);
+  -webkit-backdrop-filter: blur(8px) saturate(1.2);
+  transition: background 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.bg-floral-active {
+  background: linear-gradient(135deg, var(--bg-gradient-end) 0%, var(--bg-gradient-mid) 100%) !important;
+  box-shadow: 0 1px 6px 0 rgba(181, 126, 220, 0.12);
+  filter: brightness(0.98) saturate(1.1);
+  backdrop-filter: blur(10px) saturate(1.1);
+  -webkit-backdrop-filter: blur(10px) saturate(1.1);
+  transition: background 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.floral-dropdown-shadow {
+  box-shadow: 0 4px 24px 0 rgba(181, 126, 220, 0.18), 0 1.5px 6px 0 rgba(169, 156, 247, 0.12);
+}
+
+.floral-ios-hover:hover, .floral-ios-hover:focus {
+  background: rgba(255,255,255,0.55) !important;
+  border: 1.5px solid var(--lavender) !important;
+  box-shadow: 0 2px 12px 0 rgba(181, 126, 220, 0.18), 0 1.5px 6px 0 rgba(169, 156, 247, 0.12);
+  color: var(--jacaranda) !important;
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+  transform: scale(1.035);
+  transition: background 0.2s, box-shadow 0.2s, border 0.2s, color 0.2s, transform 0.15s;
+}
