@@ -1,1 +1,0 @@
-// This file is intentionally left empty. Theme context and toggle are not in use.
