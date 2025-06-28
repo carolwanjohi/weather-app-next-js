@@ -17,7 +17,7 @@ A beautiful, mobile-first weather app built with Next.js 15, React 19, and Tailw
    ```bash
    npm install
    # or
-yarn install
+   yarn install
    ```
 
 2. **Set up environment variables:**
@@ -31,7 +31,7 @@ yarn install
    ```bash
    npm run dev
    # or
-yarn dev
+   yarn dev
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
