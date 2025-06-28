@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import IOSHeader from "../components/IOSHeader";
 import WeatherDisplay from "../components/WeatherDisplay";
 import Forecast from "../components/Forecast";
+import Footer from "../components/Footer";
 import type { Forecast as ForecastType } from "../types/forecast";
 
 interface City {
@@ -92,9 +93,7 @@ export default function Home() {
         {/* Weather Details for selected city */}
         {/* Removed duplicate WeatherDetails to keep chips only inside WeatherDisplay glass card */}
       </main>
-      <footer className="mt-auto py-6 text-gray-400 text-xs text-center border-t border-blue-100 bg-floral-solid">
-        &copy; {new Date().getFullYear()} Weatherly. Powered by OpenWeatherMap (mocked data).
-      </footer>
+      <Footer />
     </div>
   );
 }
