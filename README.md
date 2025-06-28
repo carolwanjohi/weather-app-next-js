@@ -22,7 +22,7 @@ A beautiful, mobile-first weather app built with Next.js 15, React 19, and Tailw
    ```
 
 2. **Set up environment variables:**
-   - Copy `.env.local.example` to `.env.local` (if present) or create `.env.local`:
+   - Copy [`.env.local.example`](.env.local.example) to `.env.local` (if present) or create `.env.local`:
      ```env
      NEXT_PUBLIC_WEATHER_API_KEY=your_openweathermap_api_key
      NEXT_PUBLIC_API_BASE_URL=https://api.openweathermap.org/data/2.5
