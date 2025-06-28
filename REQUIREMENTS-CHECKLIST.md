@@ -42,7 +42,7 @@
 - [ ] Dynamic backgrounds based on weather
 - [ ] Parallax/AR/advanced animations
 - [ ] Profile section/settings
-- [ ] Footer with privacy/terms/social links
+- [x] Footer with privacy/terms/social links
 
 ## Future Enhancements
 - [ ] AI-driven recommendations

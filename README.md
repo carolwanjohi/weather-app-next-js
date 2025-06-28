@@ -10,6 +10,7 @@ A beautiful, mobile-first weather app built with Next.js 15, React 19, and Tailw
 - 🌦️ Live weather and forecast from OpenWeatherMap
 - 📊 Hourly and 7-day forecast with animated skeleton loaders
 - ⚡ Mobile-first, responsive, and accessible
+- 🦋 Informative, floral-themed footer with privacy, terms, and GitHub links
 
 ## Getting Started
 
